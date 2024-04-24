@@ -1,0 +1,721 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>resultat.xlsx
+Query=`Résultats par niveau BurVot...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code du département" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Libellé du département" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Code de la circonscription" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Libellé de la circonscription" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Code de la commune" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Libellé de la commune" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Code du b.vote" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Inscrits" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Abstentions" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Abs/Ins" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="Votants" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Vot/Ins" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="Blancs" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Blancs/Ins" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Blancs/Vot" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="Nuls" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Nuls/Ins" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Nuls/Vot" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="Exprimés" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Exp/Ins" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Exp/Vot" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="N°Panneau" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="Sexe" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Nom" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Prénom" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="Voix" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Voix/Ins" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="% Voix/Exp" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F29" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F30" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F31" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F32" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F33" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F34" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F35" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F36" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F37" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F38" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F39" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F40" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F41" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F42" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F43" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F44" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F45" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F46" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F47" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F48" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F49" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F50" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F51" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F52" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F53" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F54" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F55" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F56" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F57" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F58" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F59" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F60" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F61" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F62" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F63" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F64" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F65" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F66" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F67" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F68" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F69" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F70" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F71" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F72" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F73" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F74" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F75" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F76" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F77" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F78" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F79" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F80" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F81" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F82" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F83" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F84" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F85" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F86" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F87" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F88" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F89" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F90" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F91" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F92" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F93" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F94" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F95" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F96" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F97" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F98" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F99" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F100" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F101" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F102" size="255" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="V_String" />
+            <Field name="F103" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F104" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+            <Field name="F105" source="File: C:\Users\DELL\Desktop\sof\resultat.xlsx|||`Résultats par niveau BurVot T1 France Entière$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="198" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"Code du département","Libellé du département","Code de la circonscription","Libellé de la circonscription","Code de la commune","Libellé de la commune","Code du b.vote","Inscrits","Abstentions","% Abs/Ins","Votants","% Vot/Ins","Blancs","% Blancs/Ins","% Blancs/Vot","Nuls","% Nuls/Ins","% Nuls/Vot","Exprimés","% Exp/Ins","% Exp/Vot","N°Panneau","Sexe","Nom","Prénom","Voix","% Voix/Ins","% Voix/Exp","F29","F30","F31","F32","F33","F34","F35","F36","F37","F38","F39","F40","F41","F42","F43","F44","F45","F46","F47","F48","F49","F50","F51","F52","F53","F54","F55","F56","F57","F58","F59","F60","F61","F62","F63","F64","F65","F66","F67","F68","F69","F70","F71","F72","F73","F74","F75","F76","F77","F78","F79","F80","F81","F82","F83","F84","F85","F86","F87","F88","F89","F90","F91","F92","F93","F94","F95","F96","F97","F98","F99","F100","F101","F102","F103","F104","F105"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Code du département" selected="True" />
+            <SelectField field="Code de la commune" selected="True" />
+            <SelectField field="Inscrits" selected="True" />
+            <SelectField field="Nom" selected="True" />
+            <SelectField field="Prénom" selected="True" />
+            <SelectField field="Voix" selected="True" />
+            <SelectField field="F95" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_7240_316a0868cf80c045b9cb619d55353514_\Engine_7240_2d52011cbceeb440834fe8df6759b95a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Voix" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Voix - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_7240_316a0868cf80c045b9cb619d55353514_\Engine_7240_0d65229e676bcb43a3eb50082847cf25~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Code du département" selected="True" />
+            <SelectField field="Code de la commune" selected="True" />
+            <SelectField field="Inscrits" selected="True" />
+            <SelectField field="F31" selected="True" />
+            <SelectField field="F32" selected="True" />
+            <SelectField field="F33" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="534" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="F33" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>F33 - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Code du département" selected="True" />
+            <SelectField field="Code de la commune" selected="True" />
+            <SelectField field="Inscrits" selected="True" />
+            <SelectField field="F38" selected="True" />
+            <SelectField field="F39" selected="True" />
+            <SelectField field="F40" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="534" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="F40" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>F40 - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_7240_316a0868cf80c045b9cb619d55353514_\Engine_7240_4277dfbc5137a446a33cab6a6c31598c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Code du département" selected="True" />
+            <SelectField field="Code de la commune" selected="True" />
+            <SelectField field="Inscrits" selected="True" />
+            <SelectField field="F45" selected="True" />
+            <SelectField field="F46" selected="True" />
+            <SelectField field="F47" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="534" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="F47" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>F47 - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_7240_316a0868cf80c045b9cb619d55353514_\Engine_7240_52f69539c356ea47ae0e94d160b13df0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Code du département" selected="True" />
+            <SelectField field="Code de la commune" selected="True" />
+            <SelectField field="Inscrits" selected="True" />
+            <SelectField field="F59" selected="True" />
+            <SelectField field="F60" selected="True" />
+            <SelectField field="F61" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="534" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="F61" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>F61 - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_7240_316a0868cf80c045b9cb619d55353514_\Engine_7240_bbd98979cee77f40a4f41a7dd0dcb68a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Code du département" selected="True" />
+            <SelectField field="Code de la commune" selected="True" />
+            <SelectField field="Inscrits" selected="True" />
+            <SelectField field="F66" selected="True" />
+            <SelectField field="F67" selected="True" />
+            <SelectField field="F68" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="534" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="F68" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>F68 - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_7240_316a0868cf80c045b9cb619d55353514_\Engine_7240_bdc35a56e1d4cb4291839e3dccf77d16~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>mspr</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3ef68932-85c0-4050-9c57-1b0b7c5101c7" />
+      <Telemetry>
+        <PreviousWorkflowId value="8c3421df-9038-4cdc-a8cc-9cc6f6668bb0" />
+        <OriginWorkflowId value="ae460f0c-e6f7-4f6e-aa9d-c1a4bbe3a468" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
